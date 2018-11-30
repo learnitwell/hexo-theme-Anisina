@@ -3,36 +3,36 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Haojen # your blog title name
-subtitle:  
-author: Haojen Ma # 作者
+title: Learn IT Well # your blog title name
+subtitle: IT技术系列分享
+author: Learnitwell # 作者
 language: 
 timezone: 
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Haojen's blog 
+SEOTitle: learnitwell
 header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
-email: HaojenMa@gmail.com
-description: "马浩珍在 Github 上的个人博客"
-keyword: # seo key words
+email: learnitwell@gmail.com
+description: "learnitwell技术分享"
+keyword: learnitwell,itlearn
 
 favicon: # your favicon png
 # custom end
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://haojen.github.io
+url: http://learnitwell.net
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username: haojen
-zhihu_username: megahertz
-github_username: haojen
-twitter_username: ehazon
+weibo_username: 
+zhihu_username: learnitwell
+github_username: learnitwell
+twitter_username: 
 facebook_username:  
 linkedin_username:  
 
@@ -69,16 +69,22 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: # 个人描述
-sidebar-avatar:     # use absolute URL
+sidebar-about-description: IT技术系列分享
+sidebar-avatar:     https://pic3.zhimg.com/v2-29f023aa8af875a7d6f73086a571d978_250x250.jpg
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: false                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # friends
-friends:  # 友链
+friends:  
+  -
+    title: 艾逗笔个人博客
+    href: http://idoubi.cc
+  -
+    title: 世界变了样
+    href: http://ygy.online
 
 # Directory
 source_dir: source
